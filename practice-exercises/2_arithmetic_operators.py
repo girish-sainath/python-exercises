@@ -1,0 +1,7 @@
+print(f'Addition - 15 + 3  = {15 + 3}')
+print(f'Subtraction - 15 - 3 = {15 - 3}')
+print(f'Multiplication - 15 * 3 = {15 * 3}')
+print(f'Division - 15 / 3 = {15 / 3}')
+print(f'Floor Division - 15 // 3 = {15 // 3}')
+print(f'Modulus - 15 % 3 = {15 % 3}')
+print(f'Exponentiation - 15 ** 3 = {15 ** 3}')

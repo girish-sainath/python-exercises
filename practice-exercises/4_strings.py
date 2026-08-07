@@ -28,3 +28,12 @@ print(f"Split 'John Wick'.split(' ') = {full_name.strip().split(' ')}")
 print(f"Partition 'John Wick'.partition(' ') = {full_name.strip().partition(' ')}")
 print(f"Join ['John', '-'.join(['John', 'Wick']) = {"-".join(full_name.strip().split(' '))}")
 print(f"Replace ' John Wick '.replace(' ', 'space') = {full_name.replace(' ', 'space')}")
+
+sentence: str = "The quick brown fox jumps over the lazy dog"
+print(f"Find 'The quick brown fox jumps over the lazy dog'.find('o') = {sentence.find('T')}")
+print(f"Index 'The quick brown fox jumps over the lazy dog'.index('o') = {sentence.index('o')}")
+print(f"In Operator 'fox' in 'The quick brown fox jumps over the lazy dog' = {"fox" in sentence}")
+print(f"In Operator 'cat' in 'The quick brown fox jumps over the lazy dog' = {"cat" in sentence}")
+print(f"Count 'The quick brown fox jumps over the lazy dog'.count('o') = {sentence.count('o')}")
+print(f"Startswith 'The quick brown fox jumps over the lazy dog'.startswith('The') = {sentence.startswith('The')}")
+print(f"Endswith 'The quick brown fox jumps over the lazy dog'.endswith('dog') = {sentence.endswith('dog')}")

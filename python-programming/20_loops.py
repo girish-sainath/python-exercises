@@ -1,6 +1,6 @@
 # Loops
 
-fruits = ['apple', 'banana', 'strawberry', 'graphs', 'plum']
+fruits = ['apple', 'banana', 'strawberry', 'grapes', 'plum']
 
 ## Classic for in loop
 print('Classic for in loop `for fruit in fruits`:')

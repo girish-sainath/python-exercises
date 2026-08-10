@@ -29,7 +29,7 @@ print()
 
 # while condition: break-condition
 print("While loop - 'while condition: break-condition'")
-index = 0
+index: int = 0
 while index < len(fruits):
     print(f"Index {index}: Fruit '{fruits[index]}'")
     index += 1

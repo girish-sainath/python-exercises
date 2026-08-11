@@ -25,9 +25,9 @@ print(f"Length Letters List - 'len({letters_list})' = {len(letters_list)}")
 print()
 
 fibo_numbers: list[int] = [0, 1, 1, 2, 3, 5, 8]
-print(f"Fibo Numbers - 'fibo_numbers' = {fibo_numbers}")
-print(f"Type Fibo Numbers - 'type({fibo_numbers})' = {type(fibo_numbers)}")
-print(f"Length Fibo Numbers - 'len({fibo_numbers})' = {len(fibo_numbers)}")
+print(f"Fibonacci Numbers - 'fibo_numbers' = {fibo_numbers}")
+print(f"Type Fibonacci Numbers - 'type({fibo_numbers})' = {type(fibo_numbers)}")
+print(f"Length Fibonacci Numbers - 'len({fibo_numbers})' = {len(fibo_numbers)}")
 print()
 
 
